@@ -21,7 +21,10 @@ C++实现高并发web服务器
 测压：
 
 		webbench -c 1000 -t 10 http://ip:port/
-![35ca71105162eaa65c604996a65b98c](https://user-images.githubusercontent.com/64644244/132851447-c284d3f3-698e-411d-826d-6709d5952624.jpg)
+		
+![caad5675225203c66b4c79fc290d40d](https://user-images.githubusercontent.com/64644244/132852694-2ea20854-5527-413c-8e5b-6a9625318dcc.png)
+
+
 
 
 
