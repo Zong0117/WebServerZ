@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="http\http.cpp" />
+    <ClCompile Include="server\epoll.cpp" />
+    <ClCompile Include="server\server.cpp" />
+    <ClCompile Include="timer\timer.cpp" />
+    <ClCompile Include="buffer\buffer.cpp" />
+    <ClCompile Include="http\request.cpp" />
+    <ClCompile Include="http\response.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="http\http.h" />
+    <ClInclude Include="server\epoll.h" />
+    <ClInclude Include="server\server.h" />
+    <ClInclude Include="threadpool\threadpool.h" />
+    <ClInclude Include="timer\timer.h" />
+    <ClInclude Include="buffer\buffer.h" />
+    <ClInclude Include="http\request.h" />
+    <ClInclude Include="http\response.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sources\400.html" />
+    <None Include="sources\404.html" />
+    <None Include="sources\index.html" />
+    <None Include="sources\images.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="sources\images\1.jpg" />
+    <Image Include="sources\images\3.jpg" />
+    <Image Include="sources\images\4.jpg" />
+    <Image Include="sources\images\5.jpg" />
+    <Image Include="sources\images\6.jpg" />
+  </ItemGroup>
+</Project>
